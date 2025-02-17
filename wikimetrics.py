@@ -25,6 +25,8 @@ CREATE TABLE "Requests" (
 serviceurl = 'https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/'
 secondarypart = 'all-access/all-agents/'
 
+print("For more information about what's going on read README")
+
 pk = 1
 # creating a request
 while True:
